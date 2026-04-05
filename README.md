@@ -4,12 +4,9 @@
 * **Modular Structure:** แยกส่วนการทำงานของโค้ด (Data Setup, Model Building, Training Engine) เพื่อให้ง่ายต่อการบำรุงรักษา
 * **Transfer Learning:** ใช้ Pre-trained weights จาก ImageNet เพื่อความแม่นยำสูงแม้มีข้อมูลจำกัด
 * **Experiment Tracking:** รองรับการเก็บ Log ผ่าน TensorBoard เพื่อดูความก้าวหน้าของการเทรน
-
 ---
-
 ##  โครงสร้างโปรเจกต์ (Project Structure)
 โปรเจกต์นี้ถูกออกแบบตามมาตรฐาน Modular Design ดังนี้:
-
 
 my_ecommerce_project/
 ├── data/                # ชุดข้อมูลรูปภาพสินค้า
