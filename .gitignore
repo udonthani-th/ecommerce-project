@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Data & Results (ไม่เอาขึ้น Git เพราะไฟล์ใหญ่)
+data/
+runs/
+models/
+results/
+*.png
+
+# Environments
+venv/
+.env
